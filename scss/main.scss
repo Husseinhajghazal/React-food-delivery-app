@@ -1,0 +1,79 @@
+@import "./body";
+@import "./header";
+@import "./footer";
+@import "./hero";
+@import "./category";
+@import "./home";
+@import "./productCard";
+@import "./slider";
+@import "./shopping-cart";
+@import "./cart-item";
+@import "./common-sectoin";
+@import "./all-foods";
+@import "./pagination";
+@import "./product-details";
+@import "./cart-page";
+@import "./checkout";
+
+.addToCart__btn,
+.addToCart__btn a {
+  transition: 0.3s !important;
+  -webkit-transition: 0.3s !important;
+  -moz-transition: 0.3s !important;
+  -ms-transition: 0.3s !important;
+  -o-transition: 0.3s !important;
+}
+
+.addToCart__btn:hover,
+.addToCart__btn:hover a {
+  color: #fff !important;
+  background-color: #212245 !important;
+}
+
+.all__foods-btn a {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.all__foods-btn:hover {
+  border-color: #212245 !important;
+}
+
+.all__foods-btn:hover a {
+  color: #212245;
+}
+
+.login {
+  margin: auto;
+
+  a {
+    color: #212245;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    &:hover {
+      color: #df2020;
+    }
+  }
+}
+
+.sign {
+  a {
+    color: #212245;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    &:hover {
+      color: #df2020;
+    }
+  }
+}

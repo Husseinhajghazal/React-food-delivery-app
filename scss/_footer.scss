@@ -1,0 +1,169 @@
+.footer {
+  padding: 50px 0;
+  background-color: #fde4e4;
+}
+
+.footer__logo {
+  img {
+    width: calc(100% - 80%);
+    margin-bottom: 5px;
+  }
+
+  h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 28px;
+  }
+}
+
+.delivery__time-item {
+  background-color: transparent !important;
+
+  span,
+  span a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212245;
+  }
+}
+
+.footer__title {
+  color: #212245;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.newsletter {
+  padding: 5px;
+  border: 1px solid #212245;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+  input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #212245;
+    }
+  }
+
+  button {
+    outline: none;
+    border: none;
+  }
+
+  span {
+    padding: 5px 30px;
+    background-color: #df2020;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    i {
+      color: white;
+    }
+  }
+}
+
+.error {
+  border-color: #df2020;
+}
+
+.error-text {
+  color: #df2020;
+  margin-top: 1rem;
+}
+
+.no-error {
+  color: greenyellow;
+}
+
+.social__links {
+  a {
+    text-decoration: none;
+    i {
+      color: #fff;
+      background-color: #df2020;
+      padding: 5px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+}
+
+.copyright__text {
+  font-size: 0.8rem;
+  color: #df2020;
+}
+
+@media only screen and (max-width: 992px) {
+  .newsletter input {
+    padding: 7px;
+    font-size: 0.7rem;
+  }
+
+  .newsletter span {
+    padding: 4px 20px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__title {
+    font-size: 0.8rem;
+  }
+
+  .delivery__time-item span {
+    font-size: 0.8rem;
+  }
+
+  .delivery__time-item p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .copyright__text {
+    text-align: center;
+  }
+
+  .social__links {
+    justify-content: center;
+
+    p {
+      font-size: 0.8rem;
+    }
+
+    span {
+      padding: 4px;
+      a {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

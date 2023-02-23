@@ -1,0 +1,186 @@
+.header {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+
+.logo {
+  text-align: center;
+
+  img {
+    width: calc(100% - 60%);
+    object-fit: contain;
+    margin-top: -40px;
+  }
+
+  h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+    margin: {
+      top: -40px;
+      bottom: 0;
+    }
+  }
+}
+
+.menu a {
+  font: {
+    weight: 600;
+    size: 1rem;
+  }
+  color: #212245;
+  transition: 0.3s;
+  &:hover {
+    color: #df2020;
+  }
+  text-decoration: none;
+}
+
+.active__menu {
+  color: #df2020 !important;
+}
+
+.cart__icon i,
+.user i,
+.user a,
+.mobile__menu i {
+  font-size: 1.3rem;
+  color: #212245;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cart__icon {
+  position: relative;
+}
+
+.cart__badge {
+  position: absolute;
+  top: 30px;
+  right: -10px;
+  background-color: #df2020;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  font: {
+    size: 0.8rem;
+    weight: 500;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.mobile__menu {
+  font-weight: 600;
+  display: none;
+}
+
+.header__shrink {
+  position: sticky;
+  background-color: #fff;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  box-shadow: 5px 5px 15px -5px #fde4e4;
+}
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    img {
+      width: calc(100% - 70%);
+    }
+
+    h5 {
+      font-size: 0.8rem;
+      margin-top: -15px;
+    }
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    z-index: 99;
+    display: none;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 100;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+
+    a {
+      font-size: 0.9rem;
+    }
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+
+  .cart__icon i,
+  .mobile__menu i,
+  .user i {
+    font-size: 1rem;
+  }
+
+  .show__menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+  }
+
+  .logo img {
+    margin-top: -70px !important;
+  }
+
+  .logo h5 {
+    margin-top: -55px;
+  }
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,56 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+/* reset default style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base style */
+
+body {
+  background: #fcfcfc !important;
+  font-family: "Istok Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: unset !important;
+}
+
+h1,
+h2 {
+  font-size: 2.1rem !important;
+  font-weight: 600 !important;
+  color: #212245 !important;
+}
+
+section {
+  padding: 60px 0px !important;
+  overflow-x: hidden !important;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0 !important;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem !important;
+  }
+}
