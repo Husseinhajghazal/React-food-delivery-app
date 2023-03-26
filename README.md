@@ -6,29 +6,29 @@ Welcome to the Delivery Food App project! This app is designed to help you order
 
 The Delivery Food App is a web application that allows users to order food from restaurants in their area. The app has the following features:
 
-Browse restaurants and their menus
-Search for restaurants by name or cuisine type
-Create an account and log in
-Add items to cart and place an order
-Track order status
-Rate and review restaurants
+-Browse restaurants and their menus
+-Search for restaurants by name or cuisine type
+-Create an account and log in
+-Add items to cart and place an order
+-Track order status
+-Rate and review restaurants
 
 # Technologies Used
 
 The Delivery Food App was built using the following technologies:
 
-React
-Redux Toolkit
-React Router DOM
-Reactstrap
-Bootstrap
-Framer Motion
-React Slick
-React Paginate
-Remixicon
-Web Vitals
-Jest
-React Testing Library
+-React
+-Redux Toolkit
+-React Router DOM
+-Reactstrap
+-Bootstrap
+-Framer Motion
+-React Slick
+-React Paginate
+-Remixicon
+-Web Vitals
+-Jest
+-React Testing Library
 
 # Link
 
